@@ -1,4 +1,37 @@
+@import "_variables";
 // master css
 html{
   padding:0;
+  background: $background-color ;
+}
+.col-md-1.login-root img {
+    background: #A9D3BD;
+    padding: 17px;
+    border-radius: 8px;
+}
+body{
+  background-color: $background-color;
+}
+.header-root {
+    margin-top: 40px;
+}
+.main-menu li {
+    display: inline;
+    margin-right: 40px;
+    font-size: 20px;
+}
+ul.main-menu {
+    text-align: right;
+    margin-top: 15px;
+}
+ul.main-menu a {
+    color: #5D5E5F;
+}
+ul.main-menu a:hover {
+    color: #807F7F;
+    text-decoration: none;
+}
+.logo-root {
+    text-align: center;
+    max-width: 100%;
 }

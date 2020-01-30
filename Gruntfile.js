@@ -32,7 +32,7 @@ module.exports = function(grunt) {
         ],
       },
       dist: {
-        src: 'css/master.css',
+        src: 'css/master.min.css',
       },
     },
     cssmin: {
@@ -53,7 +53,7 @@ module.exports = function(grunt) {
       // Begin JS Uglify Plugin
       build: {
         src: ['src/*.js'],
-        dest: 'js/script.min.js',
+        dest: 'js/master.min.js',
       },
     },
     watch: {
