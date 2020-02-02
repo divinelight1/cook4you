@@ -11,7 +11,8 @@ body {
   background-color: #F6F7FC; }
 
 .header-root {
-  margin-top: 40px; }
+  margin-top: 40px;
+  z-index: 9999; }
 
 .main-menu li {
   display: inline;
@@ -62,3 +63,47 @@ header {
 
 .header-alt a:hover {
   color: #807F7F !important; }
+
+.main-title {
+  font-size: 60px;
+  font-weight: 600; }
+
+.highlighted-title-color {
+  color: #6FB98F; }
+
+p.headline {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1B595A; }
+
+.left-side-landing-holder {
+  max-width: 77%;
+  margin: 30vh auto; }
+
+article.landing-header-root {
+  margin: auto;
+  margin-top: 50px; }
+
+.right-side-landing-holder img {
+  width: 90%;
+  text-align: right; }
+
+.right-side-landing-holder {
+  text-align: right; }
+
+.right-side-root {
+  padding-right: 0; }
+
+form.search-homepage-form {
+  width: 70%; }
+
+input.form-control {
+  border: none;
+  padding: 25px 10px;
+  border-radius: 10px; }
+
+button.btn.btn-outline-secondary {
+  background: #2c7873;
+  color: #fff;
+  padding: 0 30px;
+  font-size: 20px; }

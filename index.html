@@ -11,9 +11,11 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
+
   <!-- bootstrap -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+  <!-- fontawesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/master.min.css">
@@ -36,10 +38,36 @@
     <div class="col-md-1 login-root">
       <img src="img/login-icon.png" alt="login">
     </div>
-  </div>
-  <div style="margin-top: 12000px;">
-<h1>test</h1>
-  </div>
+  </div><!-- /header -->
+  <div class="content-root">
+    <article class="landing-header-root">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="left-side-landing-holder">
+            <p class="headline"><span></span> HOME</p>
+            <h2 class="main-title">Easy and fast to<br>
+                your <span class="highlighted-title-color">favourite<br>
+                meal</span>
+            </h2>
+            <form class="search-homepage-form" action="search.php" method="post">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="ZIP Code" aria-label="ZIP Code" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6 right-side-root">
+          <div class="right-side-landing-holder">
+            <img src="img/home-page-slider-neu.png" alt="homepage illustration">
+          </div>
+        </div>
+      </div>
+    </article><!-- /landing-header-root -->
+  </div><!-- /content-root -->
+</div><!-- /container-fluid -->
 </div>
 
 <body>
