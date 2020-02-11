@@ -114,7 +114,7 @@ button.btn.btn-outline-secondary {
   margin-top: 70px;
   margin-bottom: 90px;
 }
-.featured-title, article.feature-section-root.section-distance p {
+.featured-title, .standart-paragraph {
     text-align: center;
     font-size: 20px;
     font-weight: 300;
@@ -264,4 +264,107 @@ article.about-section .col-md-7 {
     font-family: 'Open Sans';
     color: #636363;
     font-weight: 300;
+}
+.review-heading{
+  text-align: center;
+}
+.review-section{
+  margin-top: 150px;
+}
+.review-heading img {
+    text-align: center;
+    display: block;
+    margin: 30px auto 50px;
+    border-radius: 100px;
+    background: #ffd800;
+    padding: 30px;
+}
+.user-review-users-img {
+    text-align: center;
+    display: block;
+    margin: 170px auto 50px;
+    width: 70%;
+}
+.card {
+  margin: 0 auto;
+}
+.card .carousel-item {
+  height: 200px;
+}
+.card .carousel-caption {
+    padding: 0;
+    right: 0;
+    left: 0;
+    color: #3d3d3d;
+    text-align: left;
+}
+
+.card .carousel-caption p {
+  line-height: 30px;
+}
+.card .carousel-caption .col-sm-3 {
+  display: flex;
+  align-items: center;
+}
+.card .carousel-caption .col-sm-9 {
+  text-align: left;
+}
+.navi a {
+    text-decoration:none;
+}
+a > .ico {
+    background-color: grey;
+    padding: 10px;
+
+}
+a:hover > .ico {
+    background-color: #666;
+}
+div#carouselExampleControls {
+    width: 80%;
+    margin: 0 auto;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: transparent;
+    background-clip: border-box;
+    border: none;
+    border-radius: 0;
+}
+.review-title{
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.review-text{
+      font-size: 19px;
+      font-weight: 100;
+      color: #636363;
+}
+.navi i {
+    font-size: 30px;
+    padding: 17px 25px;
+    border: 1px solid;
+    border-radius: 200px;
+    color: #000;
+    border-color: #dcdcdc;
+    margin-right: 20px;
+    -webkit-box-shadow: 0px 0px 23px 3px rgba(201,206,229,1);
+-moz-box-shadow: 0px 0px 23px 3px rgba(201,206,229,1);
+box-shadow: 0px 0px 23px 3px rgba(201,206,229,1);
+}
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #fff;
+    font-size: 22px;
+}
+footer p {
+    margin: 0;
 }
