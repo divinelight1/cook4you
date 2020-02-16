@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title></title>
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
@@ -23,8 +23,38 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 <div class="container-fluid" >
+
   <div class="row header-root header">
-    <div class="col-md-3 logo-root">
+    <!-- mobile menu -->
+    <nav role="navigation">
+    <div id="menuToggle">
+      <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+      <input type="checkbox" />
+
+      <!--
+      Some spans to act as a hamburger.
+
+      They are acting like a real hamburger,
+      not that McDonalds stuff.
+      -->
+      <span></span>
+      <span></span>
+      <span></span>
+
+
+      <ul id="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Offer</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+
+      </ul>
+    </div>
+  </nav><!-- /mobile menu -->
+    <div class="col-sm-9 col-xs-9 col-md-3  logo-root">
       <a href="#"><img src="img/cook4you-logo.png" alt="logo"></a>
     </div>
     <div class="col-md-8 main-menu-root ">
@@ -35,7 +65,7 @@
         <li><a href="#">Contact</a></li>
       </ul>
     </div>
-    <div class="col-md-1 login-root">
+    <div class="col-xs-9 col-sm-3 col-md-1   login-root">
       <img src="img/login-icon.png" alt="login">
     </div>
   </div><!-- /header -->
@@ -205,7 +235,12 @@
     </article><!-- review -->
   </div><!-- /content-root -->
   <footer>
-    <p class="copyright"> Copyright &copy; 2020 Cook4You.</p>
+    <div class="row">
+      <div class="col-md-12">
+        <p class="copyright"> Copyright &copy; 2020 Cook4You.</p>
+      </div>
+    </div>
+
   </footer>
 </div><!-- /container-fluid -->
 

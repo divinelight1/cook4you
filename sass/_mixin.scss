@@ -1,0 +1,29 @@
+@import "_variables";
+
+
+
+@mixin primary_title($fontSize){
+  font-size: 40px;
+  font-weight: 700;
+  color: $main-title-color;
+  margin-bottom: 50px;
+  font-size: $fontSize;
+}
+
+@mixin header_main_title($fontSize){
+  font-weight: 600;
+  font-family: 'Open Sans';
+  font-size: $fontSize;
+}
+
+@mixin primary_title_subheading($fontSize){
+  text-align: center;
+  font-weight: 300;
+  color: #636363;
+  margin-bottom: 60px;
+  font-size: $fontSize;
+}
+
+%title_highlighted_color{
+  color: #F6F7FC !important;
+}
