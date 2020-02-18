@@ -103,7 +103,8 @@ form.search-homepage-form {
 input.form-control {
   border: none;
   padding: 25px 10px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  margin-bottom: 55px; }
 
 button.btn.btn-outline-secondary {
   background: #2c7873;
@@ -120,7 +121,7 @@ button.btn.btn-outline-secondary {
   font-weight: 300;
   color: #636363;
   margin-bottom: 60px;
-  font-size: 20px; }
+  font-size: 17px; }
 
 h4.featured-title {
   font-size: 40px;
@@ -358,9 +359,7 @@ footer {
   padding: 30px;
   background: #fff;
   font-size: 22px;
-  position: relative;
-  min-width: 110% !important;
-  margin-left: -15px; }
+  position: relative; }
 
 footer p {
   margin: 0; }
@@ -475,7 +474,11 @@ img {
     padding: 8px; }
 
   .about-section-image-holder {
-    text-align: center; } }
+    text-align: center; }
+
+  .main-title {
+    font-weight: 600;
+    font-size: 27px; } }
 @media screen and (min-width: 768px) {
   #menuToggle {
     display: none !important; } }
@@ -583,3 +586,53 @@ ul#menu {
  */
 #menuToggle input:checked ~ ul {
   transform: none; }
+
+.offer-main-title img {
+  text-align: center;
+  display: block;
+  margin: 30px auto 50px;
+  border-radius: 100px; }
+
+.offer-main-title {
+  margin-top: 90px; }
+
+* {
+  font-family: 'Montserrat', sans-serif; }
+
+.contact-form-title {
+  margin-top: 80px;
+  margin-bottom: 50px; }
+
+textarea.form-control {
+  height: auto;
+  border: 0;
+  border-radius: 10px; }
+
+.contact-form-submit {
+  text-align: right;
+  padding: 10px 80px;
+  margin-top: 4px;
+  background: #004445;
+  border: 1px solid #004445; }
+
+.contact-form-submit:hover {
+  text-align: right;
+  padding: 10px 80px;
+  margin-top: 4px;
+  background: #A9D3BD;
+  border: 1px solid #A9D3BD; }
+
+.contact-form-submit-holder {
+  text-align: right; }
+
+.contact-form-map {
+  margin-top: 90px;
+  margin-bottom: 90px; }
+
+.contact-form-map-info-paragraph {
+  margin-top: 50px;
+  font-size: 18px; }
+
+.contact-form-map-info-holder {
+  border-left: 3px solid green;
+  padding-left: 30px; }
