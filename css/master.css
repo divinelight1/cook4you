@@ -594,7 +594,7 @@ ul#menu {
   border-radius: 100px; }
 
 .offer-main-title {
-  margin-top: 90px; }
+  margin-top: 60px; }
 
 * {
   font-family: 'Montserrat', sans-serif; }
@@ -636,3 +636,40 @@ textarea.form-control {
 .contact-form-map-info-holder {
   border-left: 3px solid green;
   padding-left: 30px; }
+
+.about-us-main-title {
+  border-bottom: 1px solid #000;
+  padding-bottom: 30px; }
+
+.about-us-main-subtitle {
+  font-size: 23px;
+  font-weight: 100;
+  padding-top: 30px; }
+
+.about-us-card h5 {
+  color: #85b1b0;
+  margin: 30px auto;
+  font-weight: 600;
+  font-size: 25px; }
+
+.about-us-card {
+  text-align: center;
+  padding: 60px 50px;
+  background: #fff;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  transition: all .5s; }
+
+.about-us-card p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 100; }
+
+.about-page-distance {
+  margin: 100px auto; }
+
+.about-us-card:hover {
+  border-top: 25px solid #EA5E5E; }
+
+.about-us-card:hover h5 {
+  color: #EA5E5E; }
