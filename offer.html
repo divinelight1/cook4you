@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="css/master.min.css">
 
   <meta name="theme-color" content="#fafafa">
+
 </head>
 <div class="container-fluid" >
 
@@ -95,7 +96,7 @@
         <div class="row">
           <div class="col-md-12 offer-main-title">
             <img  src="http://www.placehold.it/100x100" alt="">
-            <h4 class="featured-title">Offer</h4>
+            <h4 class="featured-title">Categorys</h4>
             <p class="standart-paragraph">
               Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
               Pellentesque accumsan ut <br>nisl sed scelerisque.
@@ -104,10 +105,141 @@
         </div>
         <div class="row">
           <div class="col-md-12">
+            <div id="myBtnContainer">
+              <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+              <button class="btn" onclick="filterSelection('home-cooking')"> Home Cooking</button>
+              <button class="btn" onclick="filterSelection('meditteranean')"> Meditteranean</button>
+              <button class="btn" onclick="filterSelection('asian')"> Asian</button>
+              <button class="btn" onclick="filterSelection('oriental')"> Oriental</button>
+              <button class="btn" onclick="filterSelection('vegetarian')"> Vegetarian</button>
+              <button class="btn" onclick="filterSelection('vegan')"> Vegan</button>
+              <button class="btn" onclick="filterSelection('organic')"> Organic</button>
+            </div>
+          </div>
+        </div><!-- /row -->
+          <div class="row">
+            <div class="column-offer home-cooking vegan">
+              <div class="content">
+                <img src="https://picsum.photos/500/500?random=1" alt="Mountains" style="width:100%">
+                <h4 class="offer-title">Nachos</h4>
+                <p class="offer-price">Price: <strong>CHF 6.00</strong></p>
+                <div class="offer-button-holder">
+                  <a href="#" class="offer-button">View Details</a>
+                </div>
+              </div>
+            </div><!-- /collumn-offer -->
+            <div class="column-offer home-cooking organic">
+              <div class="content">
+                <img src="https://picsum.photos/500/500?random=2" alt="Mountains" style="width:100%">
+                <h4 class="offer-title">Nachos</h4>
+                <p class="offer-price">Price: <strong>CHF 6.00</strong></p>
+                <div class="offer-button-holder">
+                  <a href="#" class="offer-button">View Details</a>
+                </div>
+              </div>
+            </div><!-- /collumn-offer -->
+            <div class="column-offer home-cooking vegan">
+              <div class="content">
+                <img src="https://picsum.photos/500/500?random=3" alt="Mountains" style="width:100%">
+                <h4 class="offer-title">Nachos</h4>
+                <p class="offer-price">Price: <strong>CHF 6.00</strong></p>
+                <div class="offer-button-holder">
+                  <a href="#" class="offer-button">View Details</a>
+                </div>
+              </div>
+            </div><!-- /collumn-offer -->
+            <div class="column-offer home-cooking vegetarian">
+              <div class="content">
+                <img src="https://picsum.photos/500/500?random=4" alt="Mountains" style="width:100%">
+                <h4 class="offer-title">Nachos</h4>
+                <p class="offer-price">Price: <strong>CHF 6.00</strong></p>
+                <div class="offer-button-holder">
+                  <a href="#" class="offer-button">View Details</a>
+                </div>
+              </div>
+            </div><!-- /collumn-offer -->
+            <div class="column-offer meditteranean oriental">
+              <div class="content">
+                <img src="https://picsum.photos/500/500?random=5" alt="Mountains" style="width:100%">
+                <h4 class="offer-title">Nachos</h4>
+                <p class="offer-price">Price: <strong>CHF 6.00</strong></p>
+                <div class="offer-button-holder">
+                  <a href="#" class="offer-button">View Details</a>
+                </div>
+              </div>
+            </div><!-- /collumn-offer -->
+            <div class="column-offer meditteranean vegetarian">
+              <div class="content">
+                <img src="https://picsum.photos/500/500?random=6" alt="Mountains" style="width:100%">
+                <h4 class="offer-title">Nachos</h4>
+                <p class="offer-price">Price: <strong>CHF 6.00</strong></p>
+                <div class="offer-button-holder">
+                  <a href="#" class="offer-button">View Details</a>
+                </div>
+              </div>
+            </div><!-- /collumn-offer -->
+            <div class="column-offer meditteranean oriental">
+              <div class="content">
+                <img src="https://picsum.photos/500/500?random=7" alt="Mountains" style="width:100%">
+                <h4 class="offer-title">Nachos</h4>
+                <p class="offer-price">Price: <strong>CHF 6.00</strong></p>
+                <div class="offer-button-holder">
+                  <a href="#" class="offer-button">View Details</a>
+                </div>
+              </div>
+            </div><!-- /collumn-offer -->
+            <div class="column-offer meditteranean vegetarian">
+              <div class="content">
+                <img src="https://picsum.photos/500/500?random=8" alt="Mountains" style="width:100%">
+                <h4 class="offer-title">Nachos</h4>
+                <p class="offer-price">Price: <strong>CHF 6.00</strong></p>
+                <div class="offer-button-holder">
+                  <a href="#" class="offer-button">View Details</a>
+                </div>
+              </div>
+            </div><!-- /collumn-offer -->
+            <div class="column-offer asian vegan organic">
+              <div class="content">
+                <img src="https://picsum.photos/500/500?random=9" alt="Mountains" style="width:100%">
+                <h4 class="offer-title">Nachos</h4>
+                <p class="offer-price">Price: <strong>CHF 6.00</strong></p>
+                <div class="offer-button-holder">
+                  <a href="#" class="offer-button">View Details</a>
+                </div>
+              </div>
+            </div><!-- /collumn-offer -->
+            <div class="column-offer asian oriental">
+              <div class="content">
+                <img src="https://picsum.photos/500/500?random=10" alt="Mountains" style="width:100%">
+                <h4 class="offer-title">Nachos</h4>
+                <p class="offer-price">Price: <strong>CHF 6.00</strong></p>
+                <div class="offer-button-holder">
+                  <a href="#" class="offer-button">View Details</a>
+                </div>
+              </div>
+            </div><!-- /collumn-offer -->
+            <div class="column-offer asian vegan organic">
+              <div class="content">
+                <img src="https://picsum.photos/500/500?random=11" alt="Mountains" style="width:100%">
+                <h4 class="offer-title">Nachos</h4>
+                <p class="offer-price">Price: <strong>CHF 6.00</strong></p>
+                <div class="offer-button-holder">
+                  <a href="#" class="offer-button">View Details</a>
+                </div>
+              </div>
+            </div><!-- /collumn-offer -->
+            <div class="column-offer asian meditteranean organic">
+              <div class="content">
+                <img src="https://picsum.photos/500/500?random=12" alt="Mountains" style="width:100%">
+                <h4 class="offer-title">Nachos 1</h4>
+                <p class="offer-price">Price: <strong>CHF 6.00</strong></p>
+                <div class="offer-button-holder">
+                  <a href="#" class="offer-button">View Details</a>
+                </div>
+              </div>
+            </div><!-- /collumn-offer -->
 
           </div>
-        </div>
-      </div>
     </article>
 
     <footer>
